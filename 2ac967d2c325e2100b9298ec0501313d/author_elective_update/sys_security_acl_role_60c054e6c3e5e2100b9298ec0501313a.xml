@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-19 06:02:12</sys_created_on>
+        <sys_id>60c054e6c3e5e2100b9298ec0501313a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1755511_computer_computerapplication.x_1755511_computer.computerapplication_user</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_security_acl display_value="x_1755511_computer_computerapplication">28c054e6c3e5e2100b9298ec05013136</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_60c054e6c3e5e2100b9298ec0501313a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:02:12</sys_updated_on>
+        <sys_user_role display_value="x_1755511_computer.computerapplication_user" name="x_1755511_computer.computerapplication_user">dcc09826c3e5e2100b9298ec050131e9</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</application>
+        <file_path/>
+        <instance_id>aa03abce1b72f9901024eb9b2d4bcb84</instance_id>
+        <instance_name>dev230183</instance_name>
+        <name>sys_security_acl_role_60c054e6c3e5e2100b9298ec0501313a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-19 06:02:12</sys_created_on><sys_id>60c054e6c3e5e2100b9298ec0501313a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1755511_computer_computerapplication.x_1755511_computer.computerapplication_user</sys_name><sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package><sys_policy/><sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope><sys_security_acl display_value="x_1755511_computer_computerapplication">28c054e6c3e5e2100b9298ec05013136</sys_security_acl><sys_update_name>sys_security_acl_role_60c054e6c3e5e2100b9298ec0501313a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-19 06:02:12</sys_updated_on><sys_user_role display_value="x_1755511_computer.computerapplication_user" name="x_1755511_computer.computerapplication_user">dcc09826c3e5e2100b9298ec050131e9</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-119560485</payload_hash>
+        <record_name>x_1755511_computer_computerapplication.x_1755511_computer.computerapplication_user</record_name>
+        <reverted_from/>
+        <source>44e94eadc3a922100b9298ec0501318d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-19 06:02:12</sys_created_on>
+        <sys_id>e0c054e6c3e5e2100b9298ec0501313d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196e722b1950000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:02:12</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>e4c054e690e5e210c0d781d8fb6b3b3c</update_guid>
+        <update_guid_history>e4c054e690e5e210c0d781d8fb6b3b3c:-119560485</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1755511_computer_computerapplication.x_1755511_computer.computerapplication_us">fee290aac3e5e2100b9298ec05013149</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-19 06:11:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>1e001a01a623443ea7ab69613670d6a9</sys_id>
+        <sys_metadata>60c054e6c3e5e2100b9298ec0501313a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1755511_computer_computerapplication.x_1755511_computer.computerapplication_user</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_parent display_value="">28c054e6c3e5e2100b9298ec05013136</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_scope_delete display_value="">b43910af71c04f4c886441345b54ee19</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_60c054e6c3e5e2100b9298ec0501313a</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_60c054e6c3e5e2100b9298ec0501313a">e0c054e6c3e5e2100b9298ec0501313d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:11:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

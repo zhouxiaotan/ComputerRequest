@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>Hardware</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_1755511_computer_hardware</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Asset" name="alm_asset">91685cab5ca312104f3496f8659cf6ad</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-19 05:34:21</sys_created_on>
+        <sys_id>cf4a04aec3a5e2100b9298ec0501319f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>sys_db_object_cf4a04aec3a5e2100b9298ec0501319f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-19 05:34:21</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_1755511_computer.hardware_user" name="x_1755511_computer.hardware_user">ee194caac3a5e2100b9298ec05013169</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</application>
+        <file_path/>
+        <instance_id>aa03abce1b72f9901024eb9b2d4bcb84</instance_id>
+        <instance_name>dev230183</instance_name>
+        <name>sys_db_object_cf4a04aec3a5e2100b9298ec0501319f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>Hardware</label><live_feed_enabled>false</live_feed_enabled><name>x_1755511_computer_hardware</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Asset" name="alm_asset">91685cab5ca312104f3496f8659cf6ad</super_class><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-19 05:34:21</sys_created_on><sys_id>cf4a04aec3a5e2100b9298ec0501319f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hardware</sys_name><sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package><sys_policy/><sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope><sys_update_name>sys_db_object_cf4a04aec3a5e2100b9298ec0501319f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-19 05:34:21</sys_updated_on><update_access>false</update_access><user_role display_value="x_1755511_computer.hardware_user" name="x_1755511_computer.hardware_user">ee194caac3a5e2100b9298ec05013169</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>-2096190627</payload_hash>
+        <record_name>Hardware</record_name>
+        <reverted_from/>
+        <source>b8a4c02ac3a5e2100b9298ec050131cd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-19 05:34:22</sys_created_on>
+        <sys_id>8d6a44eec3a5e2100b9298ec05013134</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196e709368a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-19 05:34:22</sys_updated_on>
+        <type>Table</type>
+        <update_guid>816a44ee31a5e2108b8f4369d4e1c034</update_guid>
+        <update_guid_history>816a44ee31a5e2108b8f4369d4e1c034:-2096190627</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-19 06:03:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>a596ff2dc6fd45e4bbd50509cbf03099</sys_id>
+        <sys_metadata>cf4a04aec3a5e2100b9298ec0501319f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_scope_delete display_value="">b43910af71c04f4c886441345b54ee19</sys_scope_delete>
+        <sys_update_name>sys_db_object_cf4a04aec3a5e2100b9298ec0501319f</sys_update_name>
+        <sys_update_version display_value="sys_db_object_cf4a04aec3a5e2100b9298ec0501319f">8d6a44eec3a5e2100b9298ec05013134</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:03:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_1755511_computer_hardware">x_1755511_computer_hardware</category>
+        <maximum_digits>6</maximum_digits>
+        <number>2000</number>
+        <prefix>HD</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-19 05:28:47</sys_created_on>
+        <sys_id>0b19086ec3a5e2100b9298ec050131e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HD</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>sys_number_0b19086ec3a5e2100b9298ec050131e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-19 05:28:47</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</application>
+        <file_path/>
+        <instance_id>aa03abce1b72f9901024eb9b2d4bcb84</instance_id>
+        <instance_name>dev230183</instance_name>
+        <name>sys_number_0b19086ec3a5e2100b9298ec050131e3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_1755511_computer_hardware">x_1755511_computer_hardware</category><maximum_digits>6</maximum_digits><number>2000</number><prefix>HD</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-19 05:28:47</sys_created_on><sys_id>0b19086ec3a5e2100b9298ec050131e3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HD</sys_name><sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package><sys_policy/><sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope><sys_update_name>sys_number_0b19086ec3a5e2100b9298ec050131e3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-19 05:28:47</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-726502680</payload_hash>
+        <record_name>HD</record_name>
+        <reverted_from/>
+        <source>b8a4c02ac3a5e2100b9298ec050131cd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-19 05:28:47</sys_created_on>
+        <sys_id>cb19486ec3a5e2100b9298ec05013120</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196e704189f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-19 05:28:47</sys_updated_on>
+        <type>Number</type>
+        <update_guid>cf19486e5aa5e21027d4b6106560ed1f</update_guid>
+        <update_guid_history>cf19486e5aa5e21027d4b6106560ed1f:-726502680</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-19 05:33:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>4fa1b874745c424b98e2124c097e5011</sys_id>
+        <sys_metadata>0b19086ec3a5e2100b9298ec050131e3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HD</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_parent display_value="">7495846ac3a5e2100b9298ec0501313a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_scope_delete display_value="">b43910af71c04f4c886441345b54ee19</sys_scope_delete>
+        <sys_update_name>sys_number_0b19086ec3a5e2100b9298ec050131e3</sys_update_name>
+        <sys_update_version display_value="sys_number_0b19086ec3a5e2100b9298ec050131e3">cb19486ec3a5e2100b9298ec05013120</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-19 05:33:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

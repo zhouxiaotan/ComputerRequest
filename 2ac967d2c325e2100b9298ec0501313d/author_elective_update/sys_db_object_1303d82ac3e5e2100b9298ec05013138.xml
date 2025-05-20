@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>ComputerApplication</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_1755511_computer_computerapplication</name>
+        <number_ref display_value="COM">a083dcaac3e5e2100b9298ec050131c6</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Task" name="task">f575906b5c2312104f3496f8659cf68a</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-19 06:14:11</sys_created_on>
+        <sys_id>1303d82ac3e5e2100b9298ec05013138</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>ComputerApplication</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>sys_db_object_1303d82ac3e5e2100b9298ec05013138</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-19 06:21:41</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</application>
+        <file_path/>
+        <instance_id>aa03abce1b72f9901024eb9b2d4bcb84</instance_id>
+        <instance_name>dev230183</instance_name>
+        <name>sys_db_object_1303d82ac3e5e2100b9298ec05013138</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>ComputerApplication</label><live_feed_enabled>false</live_feed_enabled><name>x_1755511_computer_computerapplication</name><number_ref display_value="COM">a083dcaac3e5e2100b9298ec050131c6</number_ref><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Task" name="task">f575906b5c2312104f3496f8659cf68a</super_class><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-19 06:14:11</sys_created_on><sys_id>1303d82ac3e5e2100b9298ec05013138</sys_id><sys_mod_count>3</sys_mod_count><sys_name>ComputerApplication</sys_name><sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package><sys_policy/><sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope><sys_update_name>sys_db_object_1303d82ac3e5e2100b9298ec05013138</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-19 06:21:41</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>311937525</payload_hash>
+        <record_name>ComputerApplication</record_name>
+        <reverted_from/>
+        <source>b8a4c02ac3a5e2100b9298ec050131cd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Joel.Zhou</sys_created_by>
+        <sys_created_on>2025-05-20 04:59:52</sys_created_on>
+        <sys_id>851c89fac3a122100b9298ec05013109</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196ec0ffada0000001</sys_recorded_at>
+        <sys_updated_by>Joel.Zhou</sys_updated_by>
+        <sys_updated_on>2025-05-20 04:59:52</sys_updated_on>
+        <type>Table</type>
+        <update_guid>411c89fac6a12210f6b3094585de5a09</update_guid>
+        <update_guid_history>411c89fac6a12210f6b3094585de5a09:0,7135dcea12e5e21080df69656674fd00:-1376327557,ff05182eafe5e2101625f6420313ff8e:1693604553,ac83dcaab5e5e21007fb25e2fff799ca:-1376327557,e883dcaa04e5e210f09fc8d83baaf5c4:-1487499064</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-20 05:00:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>1a6813dd3866451c827fe9c62781be90</sys_id>
+        <sys_metadata>1303d82ac3e5e2100b9298ec05013138</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ComputerApplication</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_scope_delete display_value="">b43910af71c04f4c886441345b54ee19</sys_scope_delete>
+        <sys_update_name>sys_db_object_1303d82ac3e5e2100b9298ec05013138</sys_update_name>
+        <sys_update_version display_value="sys_db_object_1303d82ac3e5e2100b9298ec05013138">851c89fac3a122100b9298ec05013109</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-20 05:00:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

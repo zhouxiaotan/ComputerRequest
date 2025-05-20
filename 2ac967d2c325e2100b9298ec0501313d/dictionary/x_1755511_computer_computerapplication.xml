@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="1303d82ac3e5e2100b9298ec05013138" extends="task" max_length="40" name="x_1755511_computer_computerapplication" type="collection">
-        <element display="true" label="Computer" max_length="32" name="computer" reference="cmdb_ci_computer" type="reference"/>
-        <element label="Manager" max_length="32" name="manager" reference="sys_user" type="reference"/>
-    </element>
-</database>

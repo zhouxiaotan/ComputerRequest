@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Hardware</name>
+        <order>100</order>
+        <roles>x_1755511_computer.hardware_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-19 05:28:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6219086ec3a5e2100b9298ec0501315a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>sys_app_application_6219086ec3a5e2100b9298ec0501315a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-19 05:28:45</sys_updated_on>
+        <title>Hardware</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</application>
+        <file_path/>
+        <instance_id>aa03abce1b72f9901024eb9b2d4bcb84</instance_id>
+        <instance_name>dev230183</instance_name>
+        <name>sys_app_application_6219086ec3a5e2100b9298ec0501315a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Hardware</name><order>100</order><roles>x_1755511_computer.hardware_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-19 05:28:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6219086ec3a5e2100b9298ec0501315a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hardware</sys_name><sys_overrides/><sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package><sys_policy/><sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope><sys_update_name>sys_app_application_6219086ec3a5e2100b9298ec0501315a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-19 05:28:45</sys_updated_on><title>Hardware</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-1617340033</payload_hash>
+        <record_name>Hardware</record_name>
+        <reverted_from/>
+        <source>b8a4c02ac3a5e2100b9298ec050131cd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-19 05:28:45</sys_created_on>
+        <sys_id>6219086ec3a5e2100b9298ec0501315e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196e70412200000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-19 05:28:45</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>2619086e07a5e210fe65b3a972027c5d</update_guid>
+        <update_guid_history>2619086e07a5e210fe65b3a972027c5d:-1617340033</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Hardware">1c7c41fac3a122100b9298ec0501313b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-20 05:01:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>11f044f08d4f480e87870f4ba3932381</sys_id>
+        <sys_metadata>6219086ec3a5e2100b9298ec0501315a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_scope_delete display_value="">b43910af71c04f4c886441345b54ee19</sys_scope_delete>
+        <sys_update_name>sys_app_application_6219086ec3a5e2100b9298ec0501315a</sys_update_name>
+        <sys_update_version display_value="sys_app_application_6219086ec3a5e2100b9298ec0501315a">6219086ec3a5e2100b9298ec0501315e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-20 05:01:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

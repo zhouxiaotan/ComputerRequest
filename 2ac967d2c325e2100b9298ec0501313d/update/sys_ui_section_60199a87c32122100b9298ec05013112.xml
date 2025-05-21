@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Catalog Item1" section_id="60199a87c32122100b9298ec05013112" sys_domain="global" table="sc_req_item" version="3" view="New_Staff">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-21 09:13:56</sys_created_on>
+            <sys_id>f4df8743c36522100b9298ec05013129</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catalog Item1" display_value="Catalog Item1" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">60199a87c32122100b9298ec05013112</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-21 09:13:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cat_item</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-21 09:13:56</sys_created_on>
+            <sys_id>7cdf8743c36522100b9298ec05013129</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catalog Item1" display_value="Catalog Item1" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">60199a87c32122100b9298ec05013112</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-21 09:13:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-21 09:13:56</sys_created_on>
+            <sys_id>f0df8743c36522100b9298ec0501312a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catalog Item1" display_value="Catalog Item1" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">60199a87c32122100b9298ec05013112</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-21 09:13:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requested_for</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-21 09:13:56</sys_created_on>
+            <sys_id>78df8743c36522100b9298ec0501312a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catalog Item1" display_value="Catalog Item1" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">60199a87c32122100b9298ec05013112</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-21 09:13:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>due_date</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-21 09:13:56</sys_created_on>
+            <sys_id>fcdf8743c36522100b9298ec0501312a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catalog Item1" display_value="Catalog Item1" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">60199a87c32122100b9298ec05013112</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-21 09:13:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>watch_list</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-21 09:13:56</sys_created_on>
+            <sys_id>74df8743c36522100b9298ec0501312b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catalog Item1" display_value="Catalog Item1" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">60199a87c32122100b9298ec05013112</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-21 09:13:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-21 09:13:56</sys_created_on>
+            <sys_id>f8df8743c36522100b9298ec0501312b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catalog Item1" display_value="Catalog Item1" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">60199a87c32122100b9298ec05013112</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-21 09:13:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_1755511_computer_u_reference_1</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-21 09:13:56</sys_created_on>
+            <sys_id>70df8743c36522100b9298ec0501312c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catalog Item1" display_value="Catalog Item1" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">60199a87c32122100b9298ec05013112</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-21 09:13:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-21 09:13:56</sys_created_on>
+            <sys_id>f4df8743c36522100b9298ec0501312c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catalog Item1" display_value="Catalog Item1" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">60199a87c32122100b9298ec05013112</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-21 09:13:56</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_at</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-21 09:13:56</sys_created_on>
+            <sys_id>7cdf8743c36522100b9298ec0501312c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catalog Item1" display_value="Catalog Item1" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">60199a87c32122100b9298ec05013112</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-21 09:13:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-21 09:13:56</sys_created_on>
+            <sys_id>f0df8743c36522100b9298ec0501312d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catalog Item1" display_value="Catalog Item1" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">60199a87c32122100b9298ec05013112</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-21 09:13:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>quantity</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-21 09:13:56</sys_created_on>
+            <sys_id>78df8743c36522100b9298ec0501312d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catalog Item1" display_value="Catalog Item1" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">60199a87c32122100b9298ec05013112</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-21 09:13:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>estimated_delivery</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-21 09:13:56</sys_created_on>
+            <sys_id>fcdf8743c36522100b9298ec0501312d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catalog Item1" display_value="Catalog Item1" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">60199a87c32122100b9298ec05013112</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-21 09:13:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>backordered</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-21 09:13:56</sys_created_on>
+            <sys_id>74df8743c36522100b9298ec0501312e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catalog Item1" display_value="Catalog Item1" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">60199a87c32122100b9298ec05013112</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-21 09:13:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>order_guide</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-21 09:13:56</sys_created_on>
+            <sys_id>f8df8743c36522100b9298ec0501312e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catalog Item1" display_value="Catalog Item1" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">60199a87c32122100b9298ec05013112</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-21 09:13:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>stage</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-21 09:13:56</sys_created_on>
+            <sys_id>70df8743c36522100b9298ec0501312f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catalog Item1" display_value="Catalog Item1" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">60199a87c32122100b9298ec05013112</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-21 09:13:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-21 09:13:56</sys_created_on>
+            <sys_id>f4df8743c36522100b9298ec0501312f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Catalog Item1" display_value="Catalog Item1" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">60199a87c32122100b9298ec05013112</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-21 09:13:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Catalog Item1</caption>
+            <header>false</header>
+            <name>sc_req_item</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-21 05:14:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>60199a87c32122100b9298ec05013112</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>sc_req_item</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+            <sys_update_name>sys_ui_section_60199a87c32122100b9298ec05013112</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-21 06:13:39</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="New Staff" name="New_Staff">60195a87c32122100b9298ec0501319d</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

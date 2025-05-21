@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="global_search_config_handler=RequestItemSearchConfig,hasWorkflow=true" audit="true" create_roles="catalog_admin" db_object_id="b1f8d0ef5ca312104f3496f8659cf6fc" extends="task" label="Requested Item" max_length="40" name="sc_req_item" text_index="true" type="collection">
+        <element label="New Icon" max_length="100" name="x_1755511_computer_u_icon_3" type="icon"/>
         <element attributes="encode_utf8=false" label="Assigned Computer" max_length="32" name="x_1755511_computer_u_reference_1" reference="cmdb_ci_computer" type="reference" use_dependent_field="true"/>
     </element>
 </database>

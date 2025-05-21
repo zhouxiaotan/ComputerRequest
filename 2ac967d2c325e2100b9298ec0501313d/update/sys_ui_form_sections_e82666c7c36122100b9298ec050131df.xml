@@ -21,12 +21,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>e02666c7c36122100b9298ec050131e4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="sc_req_item" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">e82666c7c36122100b9298ec050131df</sys_ui_form>
-            <sys_ui_section caption="New Section" display_value="New Section" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">a42666c7c36122100b9298ec050131de</sys_ui_section>
+            <sys_ui_section caption="Related Item" display_value="Related Item" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">a42666c7c36122100b9298ec050131de</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-21 06:11:48</sys_updated_on>
+            <sys_updated_on>2025-05-21 09:13:56</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>sc_req_item</name>

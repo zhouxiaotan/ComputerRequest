@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Status" section_id="661f4703c36522100b9298ec05013141" sys_domain="global" table="sc_req_item" version="3" view="New_Staff">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-21 09:10:48</sys_created_on>
+            <sys_id>be1f4703c36522100b9298ec050131d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Status" display_value="Status" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">661f4703c36522100b9298ec05013141</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-21 09:10:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_1755511_computer_u_reference_1</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-21 09:10:48</sys_created_on>
+            <sys_id>361f4703c36522100b9298ec050131d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Status" display_value="Status" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">661f4703c36522100b9298ec05013141</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-21 09:10:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-21 09:10:48</sys_created_on>
+            <sys_id>ba1f4703c36522100b9298ec050131d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Status" display_value="Status" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">661f4703c36522100b9298ec05013141</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-21 09:10:48</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>stage</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-21 09:10:48</sys_created_on>
+            <sys_id>321f4703c36522100b9298ec050131da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Status" display_value="Status" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">661f4703c36522100b9298ec05013141</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-21 09:10:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-21 09:10:48</sys_created_on>
+            <sys_id>b61f4703c36522100b9298ec050131da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Status" display_value="Status" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">661f4703c36522100b9298ec05013141</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-21 09:10:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Status</caption>
+            <header>false</header>
+            <name>sc_req_item</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-21 09:10:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>661f4703c36522100b9298ec05013141</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sc_req_item</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+            <sys_update_name>sys_ui_section_661f4703c36522100b9298ec05013141</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-21 09:10:47</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="New Staff" name="New_Staff">60195a87c32122100b9298ec0501319d</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</application>
+        <file_path/>
+        <instance_id>aa03abce1b72f9901024eb9b2d4bcb84</instance_id>
+        <instance_name>dev230183</instance_name>
+        <name>sys_ui_section_661f4703c36522100b9298ec05013141</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Status" section_id="661f4703c36522100b9298ec05013141" sys_domain="global" table="sc_req_item" version="3" view="New_Staff"><sys_ui_element action="INSERT_OR_UPDATE"><element>approval</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-21 09:10:48</sys_created_on><sys_id>be1f4703c36522100b9298ec050131d8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Status" display_value="Status" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">661f4703c36522100b9298ec05013141</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-21 09:10:48</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>x_1755511_computer_u_reference_1</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-21 09:10:48</sys_created_on><sys_id>361f4703c36522100b9298ec050131d9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Status" display_value="Status" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">661f4703c36522100b9298ec05013141</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-21 09:10:48</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-21 09:10:48</sys_created_on><sys_id>ba1f4703c36522100b9298ec050131d9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Status" display_value="Status" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">661f4703c36522100b9298ec05013141</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-21 09:10:48</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>stage</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-21 09:10:48</sys_created_on><sys_id>321f4703c36522100b9298ec050131da</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Status" display_value="Status" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">661f4703c36522100b9298ec05013141</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-21 09:10:48</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>state</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-21 09:10:48</sys_created_on><sys_id>b61f4703c36522100b9298ec050131da</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Status" display_value="Status" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">661f4703c36522100b9298ec05013141</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-21 09:10:48</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Status</caption><header>false</header><name>sc_req_item</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-21 09:10:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>661f4703c36522100b9298ec05013141</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sc_req_item</sys_name><sys_overrides/><sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package><sys_policy/><sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope><sys_update_name>sys_ui_section_661f4703c36522100b9298ec05013141</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-21 09:10:47</sys_updated_on><sys_user/><title>false</title><view display_value="New Staff" name="New_Staff">60195a87c32122100b9298ec0501319d</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>122696976</payload_hash>
+        <record_name>Requested Item</record_name>
+        <reverted_from/>
+        <source>b8a4c02ac3a5e2100b9298ec050131cd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-21 09:10:48</sys_created_on>
+        <sys_id>3a1f4703c36522100b9298ec050131dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196f21c15460000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-21 09:10:48</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>be1f4703ff65221056c9b47bed812fdb</update_guid>
+        <update_guid_history>be1f4703ff65221056c9b47bed812fdb:122696976</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-21 09:13:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>02f5e1e3bbe04210827a9b5ed5ca0079</sys_id>
+        <sys_metadata>661f4703c36522100b9298ec05013141</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Status</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_parent display_value="Sc Req Item">b1f8d0ef5ca312104f3496f8659cf6fc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_scope_delete display_value="">b43910af71c04f4c886441345b54ee19</sys_scope_delete>
+        <sys_update_name>sys_ui_section_661f4703c36522100b9298ec05013141</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_661f4703c36522100b9298ec05013141">3a1f4703c36522100b9298ec050131dc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-21 09:13:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

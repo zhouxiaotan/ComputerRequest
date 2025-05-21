@@ -5,7 +5,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <category display_value="Laptops">59f586f23731300054b6a3549dbe5db7</category>
-        <checked_out>true</checked_out>
+        <checked_out>false</checked_out>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan/>
@@ -65,21 +65,21 @@
         <sys_created_by>Joel.Zhou</sys_created_by>
         <sys_created_on>2025-05-20 05:22:26</sys_created_on>
         <sys_id>3731d9b2c3e122100b9298ec05013117</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name>Computer Request</sys_name>
         <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
         <sys_policy/>
         <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
         <sys_update_name>sc_cat_item_3731d9b2c3e122100b9298ec05013117</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-05-21 05:31:25</sys_updated_on>
+        <sys_updated_on>2025-05-21 06:30:16</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>29</version>
+        <version>31</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>

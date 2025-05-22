@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Computer Request">3731d9b2c3e122100b9298ec05013117</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-21 15:07:24</sys_created_on>
+        <sys_id>62b0a4dbc3e922100b9298ec05013129</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Computer Request.Any User</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_62b0a4dbc3e922100b9298ec05013129</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-21 15:07:24</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</application>
+        <file_path/>
+        <instance_id>aa03abce1b72f9901024eb9b2d4bcb84</instance_id>
+        <instance_name>dev230183</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_62b0a4dbc3e922100b9298ec05013129</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Computer Request">3731d9b2c3e122100b9298ec05013117</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-21 15:07:24</sys_created_on><sys_id>62b0a4dbc3e922100b9298ec05013129</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Computer Request.Any User</sys_name><sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package><sys_policy/><sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_62b0a4dbc3e922100b9298ec05013129</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-21 15:07:24</sys_updated_on><user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>-1988545854</payload_hash>
+        <record_name>Computer Request.Any User</record_name>
+        <reverted_from/>
+        <source>b8a4c02ac3a5e2100b9298ec050131cd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-21 15:07:24</sys_created_on>
+        <sys_id>a6b0a4dbc3e922100b9298ec0501312e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196f3628f2e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-21 15:07:24</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>a6b0a4dbabe92210edab414fd153262d</update_guid>
+        <update_guid_history>a6b0a4dbabe92210edab414fd153262d:-1988545854</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Computer Request.Any User">91f0a8dbc3e922100b9298ec0501317d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-21 15:08:25</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>0fdfb685e1ee4506829c6acfc8d3ef44</sys_id>
+        <sys_metadata>62b0a4dbc3e922100b9298ec05013129</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Computer Request.Any User</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_scope_delete display_value="">b43910af71c04f4c886441345b54ee19</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_62b0a4dbc3e922100b9298ec05013129</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_62b0a4dbc3e922100b9298ec05013129">a6b0a4dbc3e922100b9298ec0501312e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-21 15:08:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

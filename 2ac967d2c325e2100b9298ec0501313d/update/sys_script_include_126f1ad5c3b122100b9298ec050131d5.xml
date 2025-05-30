@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1755511_computer.GetDataForPage32</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>GetDataForPage32</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[var GetDataForPage32 = Class.create();
+GetDataForPage32.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getData: function() {
+        var result = {
+            count: "Hello from Script Include of Server",
+			//count:sys_id,
+            status: 'success'
+        };
+        
+        return JSON.stringify(result);
+    },
+    type: 'GetDataForPage32'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 05:32:36</sys_created_on>
+        <sys_id>126f1ad5c3b122100b9298ec050131d5</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>GetDataForPage32</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>sys_script_include_126f1ad5c3b122100b9298ec050131d5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-30 13:45:08</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>126f1ad5c3b122100b9298ec050131d5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 05:32:36</sys_created_on>
+        <sys_id>ba40aa19c3b122100b9298ec050131c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 05:32:36</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

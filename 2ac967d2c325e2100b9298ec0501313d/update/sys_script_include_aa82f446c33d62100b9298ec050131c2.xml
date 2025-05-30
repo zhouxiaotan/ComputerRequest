@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1755511_computer.ExcelParse34</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>ExcelParse34</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[var ExcelParse34 = Class.create();
+ExcelParse34.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	parseProcess: function() {
+		var currentSysId = this.getParameter('sysparm_sys_id');
+        //gs.info("currentSysId: " + currentSysId);
+        var attachment = new GlideSysAttachment();
+        var getdata = new GlideRecord('sys_attachment');
+        getdata.addQuery('sys_id', currentSysId);
+        getdata.addQuery('table_name', "ZZ_YYsc_cart_item");
+        getdata.query();
+        if (getdata.next()) {
+            //gs.info("loop");
+            var attachmentSysID = getdata.sys_id.toString();
+            var attachmentStream = attachment.getContentStream(attachmentSysID);
+
+            var excelData = new sn_impex.GlideExcelParser();
+            excelData.parse(attachmentStream);
+            var finalArr = [];
+            var headers = excelData.getColumnHeaders();
+            while (excelData.next()) {
+                var row = excelData.getRow();
+				var tempObj = {};
+				tempObj.question1 = row[headers[0]];
+				tempObj.question2 = row[headers[1]];
+				tempObj.question3 = row[headers[2]];
+				finalArr.push(tempObj);
+				//gs.info("tempObj2222: " + tempObj);
+            }
+
+            //gs.info("finalArr: " + finalArr);
+			//gs.info("JSON.stringify(finalArr): " + JSON.stringify(finalArr));
+			//getdata.deleteRecord();
+			return JSON.stringify(finalArr);
+		}
+	},
+    type: 'ExcelParse34'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-30 05:34:04</sys_created_on>
+        <sys_id>aa82f446c33d62100b9298ec050131c2</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>ExcelParse34</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>sys_script_include_aa82f446c33d62100b9298ec050131c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-30 13:33:54</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>aa82f446c33d62100b9298ec050131c2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-30 05:34:04</sys_created_on>
+        <sys_id>67c378c2c33d62100b9298ec050131ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-30 05:34:04</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="CatalogItem34">c1ffd97dc33d22100b9298ec050131ac</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-29 14:45:16</sys_created_on>
+        <sys_id>8d58e9b5c37d22100b9298ec0501316f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CatalogItem302.CatalogItem3-2</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>io_set_item_8d58e9b5c37d22100b9298ec0501316f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-29 14:45:16</sys_updated_on>
+        <variable_set display_value="CatalogItem34">60c62935c37d22100b9298ec05013153</variable_set>
+    </io_set_item>
+</record_update>

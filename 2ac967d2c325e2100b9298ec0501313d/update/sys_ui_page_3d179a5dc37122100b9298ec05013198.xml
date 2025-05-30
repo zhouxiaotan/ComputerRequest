@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>catalog</category>
+        <client_script><![CDATA[// Call ServiceNow Include Script with GlideAjax API
+function getFromServer() {
+	var ga = new GlideAjax('GetDataForPage32');
+	ga.addParam('sysparm_name', 'getData');
+	ga.getXML(displayData);
+}
+
+function displayData(response) {
+	var answer = response.responseXML.documentElement.getAttribute("answer");
+	var result = JSON.parse(answer);
+	
+	document.getElementById('valueDisplay').textContent = result.count;
+	
+	var now = new Date();
+	document.getElementById('timeDisplay').textContent = now.toLocaleTimeString();
+}
+
+// Show Comfirm Dialog
+function showConfirmDialog() {
+	if (confirm('Please Click OK To Display Value?')) {		
+		getFromServer();
+	} else {
+		// Do Nothing
+	}
+}
+]]></client_script>
+        <description>Change value when select ok.</description>
+        <direct>false</direct>
+        <endpoint>x_1755511_computer_ChangeValueByAjax32.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #result {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: #f9f9f9;
+        }
+    </style>
+    <h1>Update Field When OK Selected</h1>
+    <button id="myButton" onclick="showConfirmDialog()">Click Me</button>
+    <div id="result">
+        <p>Current Value: <span id="valueDisplay">No Data</span></p>
+        <p>Lasted: <span id="timeDisplay">-</span></p>
+    </div>
+</j:jelly>]]></html>
+        <name>ChangeValueByAjax32</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:53:36</sys_created_on>
+        <sys_id>3d179a5dc37122100b9298ec05013198</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>ChangeValueByAjax32</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>sys_ui_page_3d179a5dc37122100b9298ec05013198</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-30 13:54:36</sys_updated_on>
+    </sys_ui_page>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>3d179a5dc37122100b9298ec05013198</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:53:34</sys_created_on>
+        <sys_id>87579a95c37122100b9298ec05013127</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 04:53:34</sys_updated_on>
+        <table>sys_ui_page</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

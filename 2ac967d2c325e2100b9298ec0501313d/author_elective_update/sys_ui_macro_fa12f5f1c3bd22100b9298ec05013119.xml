@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="DELETE">
+        <active>true</active>
+        <category>general</category>
+        <description>Add_Attachment_Var</description>
+        <media_type/>
+        <name>Add_Attachment_Var</name>
+        <scoped_name>x_1755511_computer_Add_Attachment_Var</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-29 15:32:10</sys_created_on>
+        <sys_id>fa12f5f1c3bd22100b9298ec05013119</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Add_Attachment_Var</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>sys_ui_macro_fa12f5f1c3bd22100b9298ec05013119</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-29 15:45:43</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly xmlns:j="jelly:core" xmlns:g="glide">
+<button onclick="saveCustomAttachment(); return false;">Attach File</button>
+<script>
+	function saveCustomAttachment() {
+		var tableName = g_form.getTableName();
+		var sys_id_input = gel('sysparm_item_guid') ? gel('sysparm_item_guid').value : g_form.getUniqueValue();
+		if (tableName === "ni") {
+			saveCatAttachment(sys_id_input, 'sc_cart_item');
+		} else {
+			saveAttachment('sc_req_item', sys_id_input);
+		}
+	}
+</script>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</application>
+        <file_path/>
+        <instance_id>aa03abce1b72f9901024eb9b2d4bcb84</instance_id>
+        <instance_name>dev230183</instance_name>
+        <name>sys_ui_macro_fa12f5f1c3bd22100b9298ec05013119</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_macro"&gt;&lt;sys_ui_macro action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;category&gt;general&lt;/category&gt;&lt;description&gt;Add_Attachment_Var&lt;/description&gt;&lt;media_type/&gt;&lt;name&gt;Add_Attachment_Var&lt;/name&gt;&lt;scoped_name&gt;x_1755511_computer_Add_Attachment_Var&lt;/scoped_name&gt;&lt;sys_class_name&gt;sys_ui_macro&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-29 15:32:10&lt;/sys_created_on&gt;&lt;sys_id&gt;fa12f5f1c3bd22100b9298ec05013119&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Add_Attachment_Var&lt;/sys_name&gt;&lt;sys_package display_value="ComputerRequest" source="x_1755511_computer"&gt;2ac967d2c325e2100b9298ec0501313d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ComputerRequest"&gt;2ac967d2c325e2100b9298ec0501313d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_macro_fa12f5f1c3bd22100b9298ec05013119&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-29 15:45:43&lt;/sys_updated_on&gt;&lt;xml&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly xmlns:j="jelly:core" xmlns:g="glide"&gt;
+&lt;button onclick="saveCustomAttachment(); return false;"&gt;Attach File&lt;/button&gt;
+&lt;script&gt;
+	function saveCustomAttachment() {
+		var tableName = g_form.getTableName();
+		var sys_id_input = gel('sysparm_item_guid') ? gel('sysparm_item_guid').value : g_form.getUniqueValue();
+		if (tableName === "ni") {
+			saveCatAttachment(sys_id_input, 'sc_cart_item');
+		} else {
+			saveAttachment('sc_req_item', sys_id_input);
+		}
+	}
+&lt;/script&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/xml&gt;&lt;/sys_ui_macro&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1905060203</payload_hash>
+        <record_name>Add_Attachment_Var</record_name>
+        <reverted_from/>
+        <source>b4ca6828c33122100b9298ec050131db</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-29 15:45:43</sys_created_on>
+        <sys_id>79367939c3bd22100b9298ec0501317e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1971cb884190000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-29 15:45:43</sys_updated_on>
+        <type>Macro</type>
+        <update_guid>fd367939e2bd22107b74acc8036cec7d</update_guid>
+        <update_guid_history>fd367939e2bd22107b74acc8036cec7d:-1905060203,14b5fdf548bd221000bf8adc9e12c331:283133921,1313f139467d2210611b543ecf683cdb:1050216486</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-30 13:48:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_macro">sys_ui_macro</sys_db_object>
+        <sys_id>031c4edb7717411882c51c9c9e4c8510</sys_id>
+        <sys_metadata>fa12f5f1c3bd22100b9298ec05013119</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add_Attachment_Var</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_scope_delete display_value="">b43910af71c04f4c886441345b54ee19</sys_scope_delete>
+        <sys_update_name>sys_ui_macro_fa12f5f1c3bd22100b9298ec05013119</sys_update_name>
+        <sys_update_version display_value="sys_ui_macro_fa12f5f1c3bd22100b9298ec05013119">79367939c3bd22100b9298ec0501317e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-30 13:48:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

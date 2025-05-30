@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+	c.getAttachment = function() {
+		var root = document.querySelectorAll('.sp-page-root');
+		//var root = document.getElementById("panel");
+		//alert(root[0].innerHTML);
+		c.server.get({
+				parmeter1: root[0].innerHTML,
+				action: "getAttachment"
+			}).then(function(response) {
+				var a = document.createElement('a');
+				//alert(response.data.sys_id);
+				//alert(response.data.filename);
+				//alert(response);
+				a.href = window.location.origin + "/sys_attachment.do?sys_id=" + response.data.sys_id;
+				a.download = response.data.sys_id;
+				a.style.display = 'none';
+				document.body.appendChild(a);
+				a.click();
+				document.body.removeChild(a);
+			});
+	}
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>        /* 按钮基础样式 */&#13;
+        .my-button {&#13;
+            padding: 12px 24px;&#13;
+            background-color: #4CAF50;&#13;
+            color: white;&#13;
+            border: none;&#13;
+            border-radius: 4px;&#13;
+            font-size: 16px;&#13;
+            cursor: pointer;&#13;
+            transition: background-color 0.3s;&#13;
+        }&#13;
+        &#13;
+        /* 鼠标悬停效果 */&#13;
+        .my-button:hover {&#13;
+            background-color: #45a049;&#13;
+        }&#13;
+        &#13;
+        /* 点击时的效果 */&#13;
+        .my-button:active {&#13;
+            background-color: #3e8e41;&#13;
+            transform: translateY(1px);&#13;
+        }&#13;
+        &#13;
+        /* 结果展示区域 */&#13;
+        #result {&#13;
+            margin-top: 20px;&#13;
+            padding: 15px;&#13;
+            border: 1px solid #ddd;&#13;
+            border-radius: 4px;&#13;
+            min-height: 20px;&#13;
+        }</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description>download_pdf</description>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+
+		document.getElementById('myButton').addEventListener('click', function() {
+
+		});
+}]]></link>
+        <name>DownloadPDF31</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+   if (input && input.action == "getAttachment") {
+			gs.info("Received Parameter: "+ input.parmeter1)
+ 
+		 	var v = new sn_pdfgeneratorutils.PDFGenerationAPI();
+			var html= input.parmeter1;
+			var number = "0c5f3cece1b12010f877971dea0b1449";
+		  var guid = gs.generateGUID();
+			var result = v.convertToPDF(html, "incident", number, guid);
+	 
+			//var attachment = new GlideSysAttachment();
+			//var file = attachment.getContentStream(result.attachment_id);
+		  var sys_id = result.attachment_id;
+		  //gs.info(sys_id);
+			//gs.info(guid);
+			data.sys_id = sys_id;
+		  data.filename = guid;
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-30 13:50:36</sys_created_on>
+        <sys_id>117562cec335a2100b9298ec05013131</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>DownloadPDF31</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>sp_widget_117562cec335a2100b9298ec05013131</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-30 14:05:17</sys_updated_on>
+        <template><![CDATA[<div id="myArea">
+	<button id="myButton" ng-click="c.getAttachment()" class="my-button">Click Me To DownLoad PDF</button>
+</div>    
+
+]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>117562cec335a2100b9298ec05013131</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-30 13:51:06</sys_created_on>
+        <sys_id>e895eacec335a2100b9298ec05013168</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-30 13:51:06</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

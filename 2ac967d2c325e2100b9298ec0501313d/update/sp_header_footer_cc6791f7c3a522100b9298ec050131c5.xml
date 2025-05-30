@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_header_footer">
+    <sp_header_footer action="INSERT_OR_UPDATE">
+        <category>hr</category>
+        <client_script/>
+        <controller_as>c</controller_as>
+        <css>.nav-container {&#13;
+  display: inline-block;&#13;
+  background: #3498db; &#13;
+  border-radius: 8px 0 0 8px;&#13;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);&#13;
+  border: 2px solid white; &#13;
+}&#13;
+&#13;
+.nav-bar {&#13;
+  display: flex;&#13;
+  list-style: none;&#13;
+}&#13;
+&#13;
+.nav-item {&#13;
+  position: relative;&#13;
+  height: 45px;&#13;
+  padding: 15px 50px 15px 70px;&#13;
+  color: #ecf0f1;&#13;
+  font-weight: 600;&#13;
+  cursor: pointer;&#13;
+  transition: all 0.3s ease;&#13;
+  border-right: 2px solid white; &#13;
+  width:150px;&#13;
+}&#13;
+&#13;
+.nav-item:not(:last-child)::after {&#13;
+  content: "";&#13;
+  position: absolute;&#13;
+  right: -20px;&#13;
+  top: -2px; &#13;
+  width: 0;&#13;
+  height: 0;&#13;
+  border-top: 24px solid transparent; &#13;
+  border-bottom: 24px solid transparent; &#13;
+  border-left: 20px solid #3498db; &#13;
+  z-index: 3;&#13;
+  transition: all 0.3s ease;&#13;
+  filter: drop-shadow(2px 0 0 white); &#13;
+}&#13;
+&#13;
+.nav-item:not(:first-child)::before {&#13;
+  content: "";&#13;
+  position: absolute;&#13;
+  left: -2px; &#13;
+  top: -2px;&#13;
+  width: 20px;&#13;
+  height: calc(100% + 4px);&#13;
+  background: #3498db; &#13;
+  clip-path: polygon(0 0, 100% 50%, 0 100%);&#13;
+  z-index: 2;&#13;
+  transition: all 0.3s ease;&#13;
+  border-left: 2px solid white; &#13;
+}&#13;
+&#13;
+.nav-item:hover {&#13;
+  background: #00dd00;&#13;
+  color: #fff;&#13;
+}&#13;
+&#13;
+.nav-item:hover::after {&#13;
+  border-left-color: #00dd00;&#13;
+}&#13;
+&#13;
+.nav-item:hover + .nav-item::before {&#13;
+  background: #34495e;&#13;
+}&#13;
+&#13;
+.nav-item.active {&#13;
+  background: #e74c3c;&#13;
+  color: #fff;&#13;
+}&#13;
+&#13;
+.nav-item.active::after {&#13;
+  border-left-color: #e74c3c;&#13;
+}&#13;
+&#13;
+.nav-item.active + .nav-item::before {&#13;
+  background: #e74c3c;&#13;
+}&#13;
+&#13;
+.nav-item:first-child {&#13;
+  border-radius: 8px 0 0 8px;&#13;
+  border-left: 2px solid white; &#13;
+}&#13;
+&#13;
+.nav-item:last-child {&#13;
+  border-radius: 8px 0 0 8px;&#13;
+  padding-right: 28px;&#13;
+  border-right: none; &#13;
+}&#13;
+&#13;
+.nav-item:last-child::after {&#13;
+  display: none;&#13;
+}&#13;
+&#13;
+.home {&#13;
+  padding: 5px 7px 15px 7px; &#13;
+  width: 40px;&#13;
+}&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+    var currentLI = 0;
+    $(document).ready(function() {
+		const containers = document.querySelectorAll('.sp-form-container');
+		//alert(containers.length);
+		containers.forEach(container => {
+			container.style.display = "none";
+		});
+		containers[0].style.display = "block";
+		containers[1].style.display = "block";
+		const navItems = document.querySelectorAll('.nav-item');
+		navItems.forEach(item => {
+			if (item.id != 'home') {
+				item.addEventListener('click', () => {
+					navItems.forEach(nav => nav.classList.remove('active'));
+					item.classList.add('active');
+					containers.forEach(container => {
+						container.style.display = "none";
+					});
+					containers[0].style.display = "block";
+					//alert(item.id);
+					if (item.id === 'step1'){
+						containers[1].style.display = "block";						
+					} else if (item.id === 'step2'){
+						containers[2].style.display = "block";
+					} else if (item.id === 'step3'){
+						containers[3].style.display = "block";
+					}
+				});
+			}
+		});
+    });
+}
+
+]]></link>
+        <name>ComputerRequest</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script/>
+        <servicenow>false</servicenow>
+        <static>false</static>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-23 08:23:07</sys_created_on>
+        <sys_id>cc6791f7c3a522100b9298ec050131c5</sys_id>
+        <sys_mod_count>62</sys_mod_count>
+        <sys_name>ComputerRequest</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>sp_header_footer_cc6791f7c3a522100b9298ec050131c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-26 13:23:45</sys_updated_on>
+        <template><![CDATA[    <div class="nav-container">
+        <div class="nav-bar">
+            <div class="nav-item home" id="home">
+                <img src="x_1755511_computer.home-icon.png" width="32" height="32"/>
+            </div>
+            <div class="nav-item active" id="step1">STEP1</div>
+            <div class="nav-item" id="step2">STEP2</div>
+            <div class="nav-item" id="step3">STEP3</div>
+            <div class="nav-item" id="step4">STEP4</div>
+            <div class="nav-item" id="step5">STEP5</div>
+      </div>
+    </div>]]></template>
+    </sp_header_footer>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>cc6791f7c3a522100b9298ec050131c5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-23 08:23:36</sys_created_on>
+        <sys_id>4777d1f7c3a522100b9298ec0501319f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-23 08:23:36</sys_updated_on>
+        <table>sp_header_footer</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

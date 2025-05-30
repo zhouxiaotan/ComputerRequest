@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1755511_computer.UpdateReqItem33</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>UpdateReqItem33</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[var UpdateReqItem33 = Class.create();
+UpdateReqItem33.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	updateReqItemData: function() {	
+		var ritmID = this.getParameter("req_item_id");
+		var question1 = this.getParameter("question1");
+		var question2 = this.getParameter("question2");
+		var question3 = this.getParameter("question3");
+		var ritm = new GlideRecord("sc_req_item");
+		ritm.get(ritmID);
+		var oVariables = {};
+		ritm.variables.question1 = question1;
+		ritm.variables.question2 = question2;
+		ritm.variables.question3 = question3;
+		ritm.approval = 'requested';
+		ritm.state = "open";
+		ritm.update();
+		return "true";
+	},
+    type: 'UpdateReqItem33'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-29 09:39:33</sys_created_on>
+        <sys_id>3332a83dc3f522100b9298ec050131bb</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>UpdateReqItem33</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>sys_script_include_3332a83dc3f522100b9298ec050131bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-30 13:42:52</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>3332a83dc3f522100b9298ec050131bb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-29 09:39:33</sys_created_on>
+        <sys_id>356220b9c3f522100b9298ec050131ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-29 09:39:33</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

@@ -14,7 +14,7 @@
         <description><![CDATA[<p>CatalogItem3 for Re-Submit</p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow display_value="CatalogItem3Flow">b19303a5c33122100b9298ec050131a2</flow_designer_flow>
+        <flow_designer_flow display_value="CatalogItemFlow33">4b318fc2c3f5a2100b9298ec05013134</flow_designer_flow>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
@@ -66,21 +66,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-29 02:39:23</sys_created_on>
         <sys_id>41e18725c33122100b9298ec05013113</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_name>CatalogItem33</sys_name>
         <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
         <sys_policy/>
         <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
         <sys_update_name>sc_cat_item_41e18725c33122100b9298ec05013113</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-05-30 14:21:37</sys_updated_on>
+        <sys_updated_on>2025-05-30 16:04:51</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>38</version>
+        <version>40</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>

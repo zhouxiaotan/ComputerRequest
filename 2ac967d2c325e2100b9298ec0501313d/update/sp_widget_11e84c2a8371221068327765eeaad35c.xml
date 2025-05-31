@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.nav-container {
+  display: inline-block;
+  background: #3498DB;
+  border-radius: 8px 0 0 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border: 2px solid white;
+}
+.nav-bar {
+  display: flex;
+  list-style: none;
+}
+.nav-item {
+  position: relative;
+  height: 45px;
+  padding: 15px 50px 15px 70px;
+  color: #ECF0F1;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-right: 2px solid white;
+  width:150px;
+}
+.nav-item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: -20px;
+  top: -2px;
+  width: 0;
+  height: 0;
+  border-top: 24px solid transparent;
+  border-bottom: 24px solid transparent;
+  border-left: 20px solid #3498DB;
+  z-index: 3;
+  transition: all 0.3s ease;
+  filter: drop-shadow(2px 0 0 white);
+}
+.nav-item:not(:first-child)::before {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  width: 20px;
+  height: calc(100% + 4px);
+  background: #3498DB;
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
+  z-index: 2;
+  transition: all 0.3s ease;
+  border-left: 2px solid white;
+}
+.nav-item:hover {
+  background: #00DD00;
+  color: #fff;
+}
+.nav-item:hover::after {
+  border-left-color: #00DD00;
+}
+.nav-item:hover + .nav-item::before {
+  background: #34495E;
+}
+.nav-item.active {
+  background: #E74C3C;
+  color: #fff;
+}
+.nav-item.active::after {
+  border-left-color: #E74C3C;
+}
+.nav-item.active + .nav-item::before {
+  background: #E74C3C;
+}
+.nav-item:first-child {
+  border-radius: 8px 0 0 8px;
+  border-left: 2px solid white;
+}
+.nav-item:last-child {
+  border-radius: 8px 0 0 8px;
+  padding-right: 28px;
+  border-right: none;
+}
+.nav-item:last-child::after {
+  display: none;
+}
+.home {
+  padding: 5px 7px 15px 7px;
+  width: 40px;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>tabnavigator2</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+    var currentLI = 0;
+    $(document).ready(function() {
+        var containers = document.querySelectorAll('.sp-form-container');
+        //alert(containers.length);
+        containers.forEach(container => {
+            container.style.display = "none";
+        });
+        containers[0].style.display = "block";
+        containers[1].style.display = "block";
+        var navItems = document.querySelectorAll('.nav-item');
+        navItems.forEach(item => {
+            if (item.id != 'home') {
+                item.addEventListener('click', () => {
+                    navItems.forEach(nav => nav.classList.remove('active'));
+                    item.classList.add('active');
+                    containers.forEach(container => {
+                        container.style.display = "none";
+                    });
+                    containers[0].style.display = "block";
+                    //alert(item.id);
+                    if (item.id === 'step1'){
+                        containers[1].style.display = "block";
+                    } else if (item.id === 'step2'){
+                        containers[2].style.display = "block";
+                    } else if (item.id === 'step3'){
+                        containers[3].style.display = "block";
+                    }
+                });
+            }
+        });
+    });
+}]]></link>
+        <name>TabNavigator2</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-31 15:43:33</sys_created_on>
+        <sys_id>11e84c2a8371221068327765eeaad35c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>TabNavigator2</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>sp_widget_11e84c2a8371221068327765eeaad35c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-31 15:50:18</sys_updated_on>
+        <template><![CDATA[<div class="nav-container">
+  <div class="nav-bar">
+    <div class="nav-item home" id="home">
+      <img src="x_1755511_computer.Home.png" width="32" height="32"/>
+    </div>
+    <div class="nav-item active" id="step1">STEP1</div>
+    <div class="nav-item" id="step2">STEP2</div>
+    <div class="nav-item" id="step3">STEP3</div>
+    <div class="nav-item" id="step4">STEP4</div>
+    <div class="nav-item" id="step5">STEP5</div>
+  </div>
+</div>
+
+
+
+
+]]></template>
+    </sp_widget>
+</record_update>

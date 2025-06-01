@@ -86,12 +86,8 @@
 			var number = "0c5f3cece1b12010f877971dea0b1449";
 		  var guid = gs.generateGUID();
 			var result = v.convertToPDF(html, "incident", number, guid);
-	 
-			//var attachment = new GlideSysAttachment();
-			//var file = attachment.getContentStream(result.attachment_id);
+ 
 		  var sys_id = result.attachment_id;
-		  //gs.info(sys_id);
-			//gs.info(guid);
 			data.sys_id = sys_id;
 		  data.filename = guid;
 	}
@@ -101,14 +97,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-30 13:50:36</sys_created_on>
         <sys_id>117562cec335a2100b9298ec05013131</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>DownloadPDF31</sys_name>
         <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
         <sys_policy/>
         <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
         <sys_update_name>sp_widget_117562cec335a2100b9298ec05013131</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-30 14:05:17</sys_updated_on>
+        <sys_updated_on>2025-06-01 08:47:21</sys_updated_on>
         <template><![CDATA[<div id="myArea">
 	<button id="myButton" ng-click="c.getAttachment()" class="my-button">Click Me To DownLoad PDF</button>
 </div>    

@@ -23,9 +23,6 @@
 	var param = getURLParam("req_item_id");
 	if(param){		
 		var req_item_id = decodeURI(param);
-		g_form.setValue("reqitemsysid", req_item_id);
-		//alert(g_form.getValue("reqitemsysid"));
-		//g_form.setValue("question1", req_item_id);
 		var ga = new GlideAjax("GetRequestItem33");
 		ga.addParam("sysparm_name", "getReqItemData");
 		ga.addParam("req_item_id", req_item_id);
@@ -58,7 +55,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>355bdfe9c37122100b9298ec0501313c</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>RetriveReqItem</sys_name>
         <sys_overrides/>
         <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
@@ -66,7 +63,7 @@
         <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
         <sys_update_name>catalog_script_client_355bdfe9c37122100b9298ec0501313c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-30 14:21:37</sys_updated_on>
+        <sys_updated_on>2025-06-01 08:33:37</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>

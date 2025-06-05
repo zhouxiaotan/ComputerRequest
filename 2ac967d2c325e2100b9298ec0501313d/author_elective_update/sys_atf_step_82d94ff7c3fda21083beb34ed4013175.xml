@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Open the '{{Step 16: Apply Filter to List.First record}}' view of a new 'Requested Item' form</description>
+        <display_name>Open a New Form</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>17</order>
+        <step_config display_value="Open a New Form">05317cd10b10220050192f15d6673af8</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 03:00:13</sys_created_on>
+        <sys_id>82d94ff7c3fda21083beb34ed4013175</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open a New Form</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>sys_atf_step_82d94ff7c3fda21083beb34ed4013175</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 03:00:13</sys_updated_on>
+        <table>sc_req_item</table>
+        <test display_value="ATF_Approved6">5e1387bfc3bda21083beb34ed4013140</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=82d94ff7c3fda21083beb34ed4013175"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>82d94ff7c3fda21083beb34ed4013175</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 03:00:13</sys_created_on>
+        <sys_id>142a077bc3fda21083beb34ed40131c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 03:00:13</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">6f2a59a4e7133300b5646ea8c2f6a975</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>82d94ff7c3fda21083beb34ed4013175</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 03:00:13</sys_created_on>
+        <sys_id>5c2a077bc3fda21083beb34ed40131c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 03:00:13</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">bb84ed825320220002c6435723dc3400</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>82d94ff7c3fda21083beb34ed4013175</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 03:00:13</sys_created_on>
+        <sys_id>982a077bc3fda21083beb34ed40131c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 03:00:13</sys_updated_on>
+        <value>record</value>
+        <variable display_value="Record path">3a662f60a3023110571967d1361e6134</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>82d94ff7c3fda21083beb34ed4013175</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 03:00:13</sys_created_on>
+        <sys_id>d42a077bc3fda21083beb34ed40131c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 03:00:13</sys_updated_on>
+        <value>{{step['49a9cb3bc3fda21083beb34ed40131c1'].first_record}}</value>
+        <variable display_value="View">27d4e1c25320220002c6435723dc3486</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=82d94ff7c3fda21083beb34ed4013175"/>
+    <sys_element_mapping action="DELETE">
+        <field>view</field>
+        <id>82d94ff7c3fda21083beb34ed4013175</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 03:00:13</sys_created_on>
+        <sys_id>902a077bc3fda21083beb34ed40131c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 03:00:13</sys_updated_on>
+        <table>var__m_atf_input_variable_05317cd10b10220050192f15d6673af8</table>
+        <value>{{step['49a9cb3bc3fda21083beb34ed40131c1'].first_record}}</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</application>
+        <file_path/>
+        <instance_id>ebd5dee81b558250a43dcb7b234bcb94</instance_id>
+        <instance_name>dev251554</instance_name>
+        <name>sys_atf_step_82d94ff7c3fda21083beb34ed4013175</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Open the '{{Step 16: Apply Filter to List.First record}}' view of a new 'Requested Item' form</description><display_name>Open a New Form</display_name><inputs/><inputs/><mugshots_cache_json/><notes/><order>17</order><step_config display_value="Open a New Form">05317cd10b10220050192f15d6673af8</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-05 03:00:13</sys_created_on><sys_id>82d94ff7c3fda21083beb34ed4013175</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Open a New Form</sys_name><sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package><sys_policy/><sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope><sys_update_name>sys_atf_step_82d94ff7c3fda21083beb34ed4013175</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-05 03:00:13</sys_updated_on><table>sc_req_item</table><test display_value="ATF_Approved6">5e1387bfc3bda21083beb34ed4013140</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=82d94ff7c3fda21083beb34ed4013175"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>82d94ff7c3fda21083beb34ed4013175</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-05 03:00:13</sys_created_on><sys_id>142a077bc3fda21083beb34ed40131c0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-05 03:00:13</sys_updated_on><value>standard_ui</value><variable display_value="Form UI">6f2a59a4e7133300b5646ea8c2f6a975</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>82d94ff7c3fda21083beb34ed4013175</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-05 03:00:13</sys_created_on><sys_id>5c2a077bc3fda21083beb34ed40131c0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-05 03:00:13</sys_updated_on><value>sc_req_item</value><variable display_value="Table">bb84ed825320220002c6435723dc3400</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>82d94ff7c3fda21083beb34ed4013175</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-05 03:00:13</sys_created_on><sys_id>982a077bc3fda21083beb34ed40131c0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-05 03:00:13</sys_updated_on><value>record</value><variable display_value="Record path">3a662f60a3023110571967d1361e6134</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>82d94ff7c3fda21083beb34ed4013175</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-05 03:00:13</sys_created_on><sys_id>d42a077bc3fda21083beb34ed40131c0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-05 03:00:13</sys_updated_on><value>{{step['49a9cb3bc3fda21083beb34ed40131c1'].first_record}}</value><variable display_value="View">27d4e1c25320220002c6435723dc3486</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=82d94ff7c3fda21083beb34ed4013175"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>view</field><id>82d94ff7c3fda21083beb34ed4013175</id><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-05 03:00:13</sys_created_on><sys_id>902a077bc3fda21083beb34ed40131c0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-05 03:00:13</sys_updated_on><table>var__m_atf_input_variable_05317cd10b10220050192f15d6673af8</table><value>{{step['49a9cb3bc3fda21083beb34ed40131c1'].first_record}}</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>-2019778862</payload_hash>
+        <record_name>Open a New Form</record_name>
+        <reverted_from/>
+        <source>f9f7ed9fc331221083beb34ed40131c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 03:00:13</sys_created_on>
+        <sys_id>982a077bc3fda21083beb34ed40131c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1973e082ee60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 03:00:13</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>9c2a077bdbfda210db242fff561894c2</update_guid>
+        <update_guid_history>9c2a077bdbfda210db242fff561894c2:-2019778862</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 03:24:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>c5156f5734e44fa89700677c8f82e240</sys_id>
+        <sys_metadata>82d94ff7c3fda21083beb34ed4013175</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open a New Form</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_scope_delete display_value="">b43910af71c04f4c886441345b54ee19</sys_scope_delete>
+        <sys_update_name>sys_atf_step_82d94ff7c3fda21083beb34ed4013175</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_82d94ff7c3fda21083beb34ed4013175">982a077bc3fda21083beb34ed40131c3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 03:24:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

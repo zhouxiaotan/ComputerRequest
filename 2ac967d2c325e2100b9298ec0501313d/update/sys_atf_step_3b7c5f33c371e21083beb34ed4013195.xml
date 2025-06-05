@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate that an email was generated matching query:
+Subject contains onboarding is completed
+and Body contains has received his computer
+With a failure timeout of 30 Seconds</description>
+        <display_name>Validate Outbound Email</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>20</order>
+        <step_config display_value="Validate Outbound Email">32911152c3833300eaac11fe81d3ae82</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 04:21:40</sys_created_on>
+        <sys_id>3b7c5f33c371e21083beb34ed4013195</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Validate Outbound Email</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>sys_atf_step_3b7c5f33c371e21083beb34ed4013195</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 05:11:44</sys_updated_on>
+        <table/>
+        <test display_value="ATF_Approved6">5e1387bfc3bda21083beb34ed4013140</test>
+        <timeout>1970-01-01 00:00:30</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=3b7c5f33c371e21083beb34ed4013195"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3b7c5f33c371e21083beb34ed4013195</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 04:21:40</sys_created_on>
+        <sys_id>69ccd373c371e21083beb34ed40131b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 04:21:40</sys_updated_on>
+        <value>sys_email</value>
+        <variable display_value="Table">80625552c3833300eaac11fe81d3aedc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3b7c5f33c371e21083beb34ed4013195</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 04:21:40</sys_created_on>
+        <sys_id>a5ccd373c371e21083beb34ed40131b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 04:21:40</sys_updated_on>
+        <value>subjectLIKEonboarding is completed^bodyLIKEhas received his computer^EQ</value>
+        <variable display_value="conditions">7d821952c3833300eaac11fe81d3ae2e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_32911152c3833300eaac11fe81d3ae82^id=3b7c5f33c371e21083beb34ed4013195"/>
+</record_update>

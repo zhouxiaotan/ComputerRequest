@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Set the following values on the form:
+Assigned Computer = {{Step 8: Apply Filter to List.First record}}</description>
+        <display_name>Set Field Values</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>18</order>
+        <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 03:18:03</sys_created_on>
+        <sys_id>f31e0b3fc3fda21083beb34ed40131da</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>sys_atf_step_f31e0b3fc3fda21083beb34ed40131da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 05:08:47</sys_updated_on>
+        <table>sc_req_item</table>
+        <test display_value="ATF_Approved6">5e1387bfc3bda21083beb34ed4013140</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=f31e0b3fc3fda21083beb34ed40131da"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f31e0b3fc3fda21083beb34ed40131da</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 03:18:03</sys_created_on>
+        <sys_id>713e8b7fc3fda21083beb34ed40131dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 03:18:03</sys_updated_on>
+        <value>x_1755511_computer_u_reference_1={{step['2e13cbbfc3bda21083beb34ed40131ce'].first_record}}^EQ</value>
+        <variable display_value="Field values">b3dba2465320220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f31e0b3fc3fda21083beb34ed40131da</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 03:18:03</sys_created_on>
+        <sys_id>bd3e8b7fc3fda21083beb34ed40131db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 03:18:03</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">424ca6465320220002c6435723dc34b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f31e0b3fc3fda21083beb34ed40131da</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 03:18:03</sys_created_on>
+        <sys_id>f93e8b7fc3fda21083beb34ed40131db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 03:18:03</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">946f3c1a0f23330072e6452bc4767eda</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f31e0b3fc3fda21083beb34ed40131da"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>f31e0b3fc3fda21083beb34ed40131da</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 03:18:03</sys_created_on>
+        <sys_id>793e8b7fc3fda21083beb34ed40131db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 03:18:03</sys_updated_on>
+        <table>var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e</table>
+        <value>x_1755511_computer_u_reference_1={{step['2e13cbbfc3bda21083beb34ed40131ce'].first_record}}^EQ</value>
+    </sys_element_mapping>
+</record_update>

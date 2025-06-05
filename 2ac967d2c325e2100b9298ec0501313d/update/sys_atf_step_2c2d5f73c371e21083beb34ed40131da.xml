@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Apply the following filter to the 'Computer' list:
+Assigned to = NewStaff1
+Assert that at least one record matches</description>
+        <display_name>Apply Filter to List</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>22</order>
+        <step_config display_value="Apply Filter to List">a69843f2531332007e7829cac2dc34d7</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 04:24:00</sys_created_on>
+        <sys_id>2c2d5f73c371e21083beb34ed40131da</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Apply Filter to List</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>sys_atf_step_2c2d5f73c371e21083beb34ed40131da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 05:08:47</sys_updated_on>
+        <table>cmdb_ci_computer</table>
+        <test display_value="ATF_Approved6">5e1387bfc3bda21083beb34ed4013140</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=2c2d5f73c371e21083beb34ed40131da"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>2c2d5f73c371e21083beb34ed40131da</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 04:24:00</sys_created_on>
+        <sys_id>374ddf73c371e21083beb34ed40131cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 04:24:00</sys_updated_on>
+        <value>cmdb_ci_appl_dot_net.duplicate_of</value>
+        <variable display_value="Related list">94a947f2531332007e7829cac2dc34b1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>2c2d5f73c371e21083beb34ed40131da</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 04:24:00</sys_created_on>
+        <sys_id>734ddf73c371e21083beb34ed40131cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 04:24:00</sys_updated_on>
+        <value>assigned_to=c4987197c3b1221083beb34ed4013122^EQ</value>
+        <variable display_value="List filter">31e9c7f2531332007e7829cac2dc3445</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>2c2d5f73c371e21083beb34ed40131da</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 04:24:00</sys_created_on>
+        <sys_id>bb4ddf73c371e21083beb34ed40131cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 04:24:00</sys_updated_on>
+        <value>cmdb_ci_computer</value>
+        <variable display_value="Related list table">856caf14532332007e7829cac2dc34eb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>2c2d5f73c371e21083beb34ed40131da</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 04:24:00</sys_created_on>
+        <sys_id>bf4ddf73c371e21083beb34ed40131cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 04:24:00</sys_updated_on>
+        <value>list</value>
+        <variable display_value="List type">2c4b1ce173533300099f98b8caf6a7f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>2c2d5f73c371e21083beb34ed40131da</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 04:24:00</sys_created_on>
+        <sys_id>f74ddf73c371e21083beb34ed40131cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 04:24:00</sys_updated_on>
+        <value>cmdb_ci_computer</value>
+        <variable display_value="Table">719b8ff2531332007e7829cac2dc34da</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>2c2d5f73c371e21083beb34ed40131da</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 04:24:00</sys_created_on>
+        <sys_id>fb4ddf73c371e21083beb34ed40131cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 04:24:00</sys_updated_on>
+        <value>records_match_filter</value>
+        <variable display_value="Assert type">0568fd3573213300440211d8faf6a781</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_a69843f2531332007e7829cac2dc34d7^id=2c2d5f73c371e21083beb34ed40131da"/>
+</record_update>

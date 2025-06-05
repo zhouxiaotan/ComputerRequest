@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Open 'Computer Request' catalog item</description>
+        <display_name>Open a Catalog Item</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Open a Catalog Item">2516c0e1c332220076173b0ac3d3ae39</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 12:07:06</sys_created_on>
+        <sys_id>ddadf32fc3fd621083beb34ed4013152</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Open a Catalog Item</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>sys_atf_step_ddadf32fc3fd621083beb34ed4013152</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 14:46:44</sys_updated_on>
+        <table/>
+        <test display_value="ATF_Rejected6">af0cf7abc3fd621083beb34ed4013153</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=ddadf32fc3fd621083beb34ed4013152"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ddadf32fc3fd621083beb34ed4013152</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 12:07:06</sys_created_on>
+        <sys_id>7dbdfb2fc3fd621083beb34ed40131f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 12:07:06</sys_updated_on>
+        <value>3731d9b2c3e122100b9298ec05013117</value>
+        <variable display_value="Catalog item">b0d64ce1c332220076173b0ac3d3ae95</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_2516c0e1c332220076173b0ac3d3ae39^id=ddadf32fc3fd621083beb34ed4013152"/>
+</record_update>

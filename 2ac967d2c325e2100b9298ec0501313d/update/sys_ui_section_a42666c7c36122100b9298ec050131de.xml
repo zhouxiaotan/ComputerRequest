@@ -1,30 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Related Item" section_id="a42666c7c36122100b9298ec050131de" sys_domain="global" table="sc_req_item" version="3" view="New_Staff">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>com_glideapp_servicecatalog_veditor</element>
+            <element>approval_history</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-21 09:14:56</sys_created_on>
-            <sys_id>9700db43c36522100b9298ec05013176</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter display_value="Variable Editor">86863af2c611229101b57dcc29ac7666</sys_ui_formatter>
-            <sys_ui_section caption="Related Item" display_value="Related Item" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">a42666c7c36122100b9298ec050131de</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-21 09:14:56</sys_updated_on>
-            <sys_user/>
-            <type>formatter</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>approval_history</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-21 09:14:56</sys_created_on>
-            <sys_id>5f00db43c36522100b9298ec05013176</sys_id>
+            <sys_created_on>2025-06-05 05:01:09</sys_created_on>
+            <sys_id>04d5eb33c3b1e21083beb34ed401314a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Related Item" display_value="Related Item" name="sc_req_item" sys_domain="global" view="60195a87c32122100b9298ec0501319d">a42666c7c36122100b9298ec050131de</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-21 09:14:56</sys_updated_on>
+            <sys_updated_on>2025-06-05 05:01:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

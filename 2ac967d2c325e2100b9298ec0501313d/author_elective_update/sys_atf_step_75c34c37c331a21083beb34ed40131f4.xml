@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Set the following values on the form:
+Approval = Rejected</description>
+        <display_name>Set Field Values</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>7</order>
+        <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 12:33:55</sys_created_on>
+        <sys_id>75c34c37c331a21083beb34ed40131f4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>sys_atf_step_75c34c37c331a21083beb34ed40131f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 12:39:52</sys_updated_on>
+        <table>sc_req_item</table>
+        <test display_value="ATF6">af0cf7abc3fd621083beb34ed4013153</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=75c34c37c331a21083beb34ed40131f4"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>75c34c37c331a21083beb34ed40131f4</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 12:33:55</sys_created_on>
+        <sys_id>26d3c077c331a21083beb34ed401312b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 12:33:55</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">946f3c1a0f23330072e6452bc4767eda</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>75c34c37c331a21083beb34ed40131f4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 12:33:55</sys_created_on>
+        <sys_id>aad3c077c331a21083beb34ed401312b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 12:33:55</sys_updated_on>
+        <value>approval=rejected^EQ</value>
+        <variable display_value="Field values">b3dba2465320220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>75c34c37c331a21083beb34ed40131f4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 12:33:55</sys_created_on>
+        <sys_id>e6d3c077c331a21083beb34ed401312b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 12:33:55</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">424ca6465320220002c6435723dc34b5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e^id=75c34c37c331a21083beb34ed40131f4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</application>
+        <file_path/>
+        <instance_id>ebd5dee81b558250a43dcb7b234bcb94</instance_id>
+        <instance_name>dev251554</instance_name>
+        <name>sys_atf_step_75c34c37c331a21083beb34ed40131f4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Set the following values on the form:
+Approval = Rejected</description><display_name>Set Field Values</display_name><inputs/><mugshots_cache_json/><notes/><order>7</order><step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-04 12:33:55</sys_created_on><sys_id>75c34c37c331a21083beb34ed40131f4</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Set Field Values</sys_name><sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package><sys_policy/><sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope><sys_update_name>sys_atf_step_75c34c37c331a21083beb34ed40131f4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-04 12:39:52</sys_updated_on><table>sc_req_item</table><test display_value="ATF6">af0cf7abc3fd621083beb34ed4013153</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=75c34c37c331a21083beb34ed40131f4"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>75c34c37c331a21083beb34ed40131f4</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-04 12:33:55</sys_created_on><sys_id>26d3c077c331a21083beb34ed401312b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-04 12:33:55</sys_updated_on><value>standard_ui</value><variable display_value="Form UI">946f3c1a0f23330072e6452bc4767eda</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>75c34c37c331a21083beb34ed40131f4</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-04 12:33:55</sys_created_on><sys_id>aad3c077c331a21083beb34ed401312b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-04 12:33:55</sys_updated_on><value>approval=rejected^EQ</value><variable display_value="Field values">b3dba2465320220002c6435723dc34f0</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>75c34c37c331a21083beb34ed40131f4</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-04 12:33:55</sys_created_on><sys_id>e6d3c077c331a21083beb34ed401312b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-04 12:33:55</sys_updated_on><value>sc_req_item</value><variable display_value="Table">424ca6465320220002c6435723dc34b5</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e^id=75c34c37c331a21083beb34ed40131f4"/></record_update>]]></payload>
+        <payload_hash>362714294</payload_hash>
+        <record_name>Set Field Values</record_name>
+        <reverted_from/>
+        <source>f9f7ed9fc331221083beb34ed40131c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 12:39:52</sys_created_on>
+        <sys_id>793508f7c331a21083beb34ed4013138</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1973af4858f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 12:39:52</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>7d3508f72d31a21049bbcd993f3a3737</update_guid>
+        <update_guid_history>7d3508f72d31a21049bbcd993f3a3737:362714294,a6d3c0774f31a210bc794911dae5eb2d:-557351659</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 12:39:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>021a18baba4846b48fe0d35faa3ba0c4</sys_id>
+        <sys_metadata>75c34c37c331a21083beb34ed40131f4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_scope_delete display_value="">b43910af71c04f4c886441345b54ee19</sys_scope_delete>
+        <sys_update_name>sys_atf_step_75c34c37c331a21083beb34ed40131f4</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_75c34c37c331a21083beb34ed40131f4">793508f7c331a21083beb34ed4013138</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 12:39:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

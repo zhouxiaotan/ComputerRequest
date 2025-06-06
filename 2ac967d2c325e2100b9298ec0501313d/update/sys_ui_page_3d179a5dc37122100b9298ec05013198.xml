@@ -20,11 +20,32 @@ function displayData(response) {
 
 // Show Comfirm Dialog
 function showConfirmDialog() {
-	if (confirm('Please Click OK To Display Value?')) {		
+
+	var dialog = new GlideModal('glide_confirm_basic', true, 300);
+	dialog.setTitle(new GwtMessage().getMessage('Confirmation'));
+	dialog.setPreference('title', 'This is a Confirm Message!');
+	dialog.setPreference('focusTrap', true);
+	dialog.setPreference('buttonLabelComplete', 'OK'); 
+	dialog.setPreference('buttonLabelCancel', 'Cancel');
+	dialog.setPreference('onPromptComplete', function () {
+		doComplete();
+	});
+	dialog.setPreference('onPromptCancel', doCancel);
+	dialog.render();
+		
+	function doComplete() {
 		getFromServer();
-	} else {
-		// Do Nothing
+		//callback(true);
 	}
+		
+	function doCancel() {
+		//callback(false);
+	}
+	//if (confirm('Please Click OK To Display Value?')) {		
+	//	//getFromServer();
+	//} else {
+	//	// Do Nothing
+	//}
 }
 ]]></client_script>
         <description>Change value when select ok.</description>
@@ -72,14 +93,14 @@ function showConfirmDialog() {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-28 04:53:36</sys_created_on>
         <sys_id>3d179a5dc37122100b9298ec05013198</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>ChangeValueByAjax32</sys_name>
         <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
         <sys_policy/>
         <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
         <sys_update_name>sys_ui_page_3d179a5dc37122100b9298ec05013198</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-30 13:54:36</sys_updated_on>
+        <sys_updated_on>2025-06-06 06:10:45</sys_updated_on>
     </sys_ui_page>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>3d179a5dc37122100b9298ec05013198</id>

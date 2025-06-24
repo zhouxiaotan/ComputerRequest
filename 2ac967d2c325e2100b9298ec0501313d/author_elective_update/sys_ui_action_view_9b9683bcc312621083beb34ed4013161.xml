@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view">
+    <sys_ui_action_view action="DELETE">
+        <sys_class_name>sys_ui_action_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-20 15:34:28</sys_created_on>
+        <sys_id>9b9683bcc312621083beb34ed4013161</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Resubmit.Form Action</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_ui_action display_value="Resubmit">6596e0b68375221068327765eeaad3b8</sys_ui_action>
+        <sys_ui_view display_value="Form Action" name="form_action">b6251647651012104f340572a94740b3</sys_ui_view>
+        <sys_update_name>sys_ui_action_view_9b9683bcc312621083beb34ed4013161</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-20 15:34:28</sys_updated_on>
+        <visibility>include</visibility>
+    </sys_ui_action_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</application>
+        <file_path/>
+        <instance_id>ebd5dee81b558250a43dcb7b234bcb94</instance_id>
+        <instance_name>dev251554</instance_name>
+        <name>sys_ui_action_view_9b9683bcc312621083beb34ed4013161</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view"><sys_ui_action_view action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_view</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-20 15:34:28</sys_created_on><sys_id>9b9683bcc312621083beb34ed4013161</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Resubmit.Form Action</sys_name><sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package><sys_policy/><sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope><sys_ui_action display_value="Resubmit">6596e0b68375221068327765eeaad3b8</sys_ui_action><sys_ui_view display_value="Form Action" name="form_action">b6251647651012104f340572a94740b3</sys_ui_view><sys_update_name>sys_ui_action_view_9b9683bcc312621083beb34ed4013161</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-20 15:34:28</sys_updated_on><visibility>include</visibility></sys_ui_action_view></record_update>]]></payload>
+        <payload_hash>-1761011939</payload_hash>
+        <record_name>include</record_name>
+        <reverted_from/>
+        <source>f9f7ed9fc331221083beb34ed40131c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-20 15:34:28</sys_created_on>
+        <sys_id>d79683bcc312621083beb34ed4013164</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1978dfa1c670000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-20 15:34:28</sys_updated_on>
+        <type>UI View Action</type>
+        <update_guid>db9683bc1d126210f575211bb1505063</update_guid>
+        <update_guid_history>db9683bc1d126210f575211bb1505063:-1761011939</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-20 15:35:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action_view">sys_ui_action_view</sys_db_object>
+        <sys_id>31b5ad89b97c499093fdbcc943f2c900</sys_id>
+        <sys_metadata>9b9683bcc312621083beb34ed4013161</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Resubmit.Form Action</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_parent display_value="">6596e0b68375221068327765eeaad3b8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_scope_delete display_value="">b43910af71c04f4c886441345b54ee19</sys_scope_delete>
+        <sys_update_name>sys_ui_action_view_9b9683bcc312621083beb34ed4013161</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_view_9b9683bcc312621083beb34ed4013161">d79683bcc312621083beb34ed4013164</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-20 15:35:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

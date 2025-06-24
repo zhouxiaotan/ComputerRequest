@@ -30,7 +30,25 @@
         <name>UpdateDataByAjax</name>
         <onclick>showConfirmDialog()</onclick>
         <order>98</order>
-        <script><![CDATA[// Call ServiceNow Include Script with GlideAjax API
+        <script><![CDATA[// Show Comfirm Dialog
+function showConfirmDialog() {
+
+	var dialog = new GlideModal('glide_confirm_basic', true, 300);
+	dialog.setTitle(new GwtMessage().getMessage('Confirmation'));
+	dialog.setPreference('title', '<div><p>This is a Confirm Message!</p><p> </p><p> </p></div>');
+	dialog.setPreference('focusTrap', true);
+	dialog.setPreference('buttonLabelComplete', 'OK'); 
+	dialog.setPreference('buttonLabelCancel', 'Cancel');
+	dialog.setPreference('onPromptComplete', function () { doComplete(); });
+	dialog.setPreference('onPromptCancel', function () { });
+	dialog.render();
+		
+	function doComplete() {
+		getFromServer();		
+	}
+}
+
+// Call ServiceNow Include Script with GlideAjax API
 function getFromServer() {
 	var ga = new GlideAjax('GetDataForPage32');
 	ga.addParam('sysparm_name', 'getData');
@@ -42,24 +60,6 @@ function displayData(response) {
 	var result = JSON.parse(answer);
 	var now = new Date();
 	g_form.setValue('short_description', result.count + " On:" + now.toLocaleTimeString());
-}
-
-// Show Comfirm Dialog
-function showConfirmDialog() {
-
-	var dialog = new GlideModal('glide_confirm_basic', true, 300);
-	dialog.setTitle(new GwtMessage().getMessage('Confirmation'));
-	dialog.setPreference('title', 'This is a Confirm Message!');
-	dialog.setPreference('focusTrap', true);
-	dialog.setPreference('buttonLabelComplete', 'OK'); 
-	dialog.setPreference('buttonLabelCancel', 'Cancel');
-	dialog.setPreference('onPromptComplete', function () { doComplete(); });
-	dialog.setPreference('onPromptCancel', function () { });
-	dialog.render();
-		
-	function doComplete() {
-		getFromServer();		
-	}
 }]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -71,7 +71,7 @@ function showConfirmDialog() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5d9f3c98c3ca261083beb34ed401311d</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>UpdateDataByAjax</sys_name>
         <sys_overrides/>
         <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
@@ -79,10 +79,20 @@ function showConfirmDialog() {
         <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
         <sys_update_name>sys_ui_action_5d9f3c98c3ca261083beb34ed401311d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-06 06:29:01</sys_updated_on>
+        <sys_updated_on>2025-06-06 06:54:43</sys_updated_on>
         <table>cmdb_ci_computer</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
+        <x_376096_pxp_client_script><![CDATA[/* eslint no-undef: "error" */
+function onClick(g_form) {
+
+    // Activate the "Template Bar" (... - Button on the top right)
+    // for some example scripts
+
+}]]></x_376096_pxp_client_script>
+        <x_376096_pxp_enabled>false</x_376096_pxp_enabled>
+        <x_376096_pxp_list_disabled_condition/>
+        <x_376096_pxp_list_label/>
     </sys_ui_action>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>5d9f3c98c3ca261083beb34ed401311d</id>

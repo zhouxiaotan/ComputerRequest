@@ -2,26 +2,26 @@
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
         <copied_from/>
-        <description>Open the 'Approval' form with id '{{Step 10: Apply Filter to List.First record}}'</description>
+        <description>Open the 'Approval' form with id '{{Step 9: Apply Filter to List.First record}}'</description>
         <display_name>Open an Existing Record</display_name>
         <inputs/>
         <inputs/>
         <mugshots_cache_json/>
-        <notes/>
-        <order>11</order>
+        <notes>open the request record to approval or reject.</notes>
+        <order>10</order>
         <step_config display_value="Open an Existing Record">5f2e0e535332120028bc29cac2dc34d3</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-06-04 13:59:52</sys_created_on>
         <sys_id>51771c33c3b1a21083beb34ed4013143</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Open an Existing Record</sys_name>
         <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
         <sys_policy/>
         <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
         <sys_update_name>sys_atf_step_51771c33c3b1a21083beb34ed4013143</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-04 15:54:55</sys_updated_on>
+        <sys_updated_on>2025-06-24 06:15:33</sys_updated_on>
         <table>sysapproval_approver</table>
         <test display_value="ATF_Rejected6">af0cf7abc3fd621083beb34ed4013153</test>
         <timeout/>

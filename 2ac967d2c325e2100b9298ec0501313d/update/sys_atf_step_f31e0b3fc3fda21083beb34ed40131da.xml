@@ -3,26 +3,26 @@
         <active>true</active>
         <copied_from/>
         <description>Set the following values on the form:
-Assigned Computer = {{Step 8: Apply Filter to List.First record}}</description>
+Assigned Computer = {{Step 7: Apply Filter to List.First record}}</description>
         <display_name>Set Field Values</display_name>
         <inputs/>
         <inputs/>
         <mugshots_cache_json/>
-        <notes/>
-        <order>18</order>
+        <notes>Assign a computer to newstaff.</notes>
+        <order>17</order>
         <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-06-05 03:18:03</sys_created_on>
         <sys_id>f31e0b3fc3fda21083beb34ed40131da</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Set Field Values</sys_name>
         <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
         <sys_policy/>
         <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
         <sys_update_name>sys_atf_step_f31e0b3fc3fda21083beb34ed40131da</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-05 05:08:47</sys_updated_on>
+        <sys_updated_on>2025-06-24 09:01:05</sys_updated_on>
         <table>sc_req_item</table>
         <test display_value="ATF_Approved6">5e1387bfc3bda21083beb34ed4013140</test>
         <timeout/>

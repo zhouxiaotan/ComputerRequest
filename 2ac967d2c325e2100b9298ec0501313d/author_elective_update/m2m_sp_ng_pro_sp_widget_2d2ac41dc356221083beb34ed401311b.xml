@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget">
+    <m2m_sp_ng_pro_sp_widget action="DELETE">
+        <sp_angular_provider display_value="spAttachmentManager">06e836f0d722120023c84f80de6103a1</sp_angular_provider>
+        <sp_widget display_value="Copy of Form">d12a8451c356221083beb34ed40131d0</sp_widget>
+        <sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-21 15:08:00</sys_created_on>
+        <sys_id>2d2ac41dc356221083beb34ed401311b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>spAttachmentManager.Copy of Form</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_2d2ac41dc356221083beb34ed401311b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-21 15:08:00</sys_updated_on>
+    </m2m_sp_ng_pro_sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</application>
+        <file_path/>
+        <instance_id>ebd5dee81b558250a43dcb7b234bcb94</instance_id>
+        <instance_name>dev251554</instance_name>
+        <name>m2m_sp_ng_pro_sp_widget_2d2ac41dc356221083beb34ed401311b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget"><m2m_sp_ng_pro_sp_widget action="INSERT_OR_UPDATE"><sp_angular_provider display_value="spAttachmentManager">06e836f0d722120023c84f80de6103a1</sp_angular_provider><sp_widget display_value="Copy of Form">d12a8451c356221083beb34ed40131d0</sp_widget><sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-21 15:08:00</sys_created_on><sys_id>2d2ac41dc356221083beb34ed401311b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>spAttachmentManager.Copy of Form</sys_name><sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package><sys_policy/><sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope><sys_update_name>m2m_sp_ng_pro_sp_widget_2d2ac41dc356221083beb34ed401311b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-21 15:08:00</sys_updated_on></m2m_sp_ng_pro_sp_widget></record_update>]]></payload>
+        <payload_hash>254855349</payload_hash>
+        <record_name>spAttachmentManager.Copy of Form</record_name>
+        <reverted_from/>
+        <source>f9f7ed9fc331221083beb34ed40131c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-21 15:08:00</sys_created_on>
+        <sys_id>a92ac41dc356221083beb34ed401311e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19793083fa40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-21 15:08:00</sys_updated_on>
+        <type>Angular Providers</type>
+        <update_guid>ad2ac41d79562210d04020a94ec7ed1d</update_guid>
+        <update_guid_history>ad2ac41d79562210d04020a94ec7ed1d:254855349</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="spAttachmentManager.Copy of Form">3abc8011c396221083beb34ed4013171</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-21 15:19:17</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_ng_pro_sp_widget">m2m_sp_ng_pro_sp_widget</sys_db_object>
+        <sys_id>2b75ba9c0ea744b99a2bb6374987d511</sys_id>
+        <sys_metadata>2d2ac41dc356221083beb34ed401311b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>spAttachmentManager.Copy of Form</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_scope_delete display_value="">b43910af71c04f4c886441345b54ee19</sys_scope_delete>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_2d2ac41dc356221083beb34ed401311b</sys_update_name>
+        <sys_update_version display_value="m2m_sp_ng_pro_sp_widget_2d2ac41dc356221083beb34ed401311b">a92ac41dc356221083beb34ed401311e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-21 15:19:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

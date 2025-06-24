@@ -14,7 +14,7 @@
         <description><![CDATA[<p>Request a computer for new user</p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow display_value="Request computer for new user">d2a72afec36922100b9298ec05013194</flow_designer_flow>
+        <flow_designer_flow display_value="RequestComputer1">2a5ebca5c30aaa1083beb34ed40131aa</flow_designer_flow>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
@@ -45,14 +45,14 @@
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value="UserManager ">d71a5ca2c329e2100b9298ec050131c0</owner>
+        <owner display_value="">d71a5ca2c329e2100b9298ec050131c0</owner>
         <picture>6caba176c36522100b9298ec05013179</picture>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=3731d9b2c3e122100b9298ec05013117&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
         <published_ref/>
         <recurring_frequency/>
         <request_method>request</request_method>
-        <roles/>
+        <roles>snc_internal</roles>
         <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
@@ -65,21 +65,21 @@
         <sys_created_by>Joel.Zhou</sys_created_by>
         <sys_created_on>2025-05-20 05:22:26</sys_created_on>
         <sys_id>3731d9b2c3e122100b9298ec05013117</sys_id>
-        <sys_mod_count>46</sys_mod_count>
+        <sys_mod_count>48</sys_mod_count>
         <sys_name>Computer Request</sys_name>
         <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
         <sys_policy/>
         <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
         <sys_update_name>sc_cat_item_3731d9b2c3e122100b9298ec05013117</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-05-26 05:16:29</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-16 07:25:25</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>46</version>
+        <version>47</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
@@ -109,6 +109,7 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
+        <encryption_context/>
         <file_name>picture</file_name>
         <hash>a46bc58ec5d77fd8cfda546f002c76f5c30f656eebbede7997e829d539224d84</hash>
         <image_height>66</image_height>
